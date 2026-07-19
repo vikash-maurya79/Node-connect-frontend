@@ -1,0 +1,83 @@
+.landing-page-container {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+.image {
+    border-radius: 40px;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    color: #FAD707;
+}
+
+.content {
+    margin-top: 10px;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1F2E6C;
+    text-shadow: #FAD707;
+
+}
+
+.my-navbar {
+    background-color: #1F2E6C;
+}
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 20px;
+}
+
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.profile-circle {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: white 1px solid;
+}
+
+.profile-card-user:hover {
+
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px #3b82f6;
+}
